@@ -1,0 +1,144 @@
+.info-container{
+  width:65rem;
+  margin: 6rem auto;
+  text-align:center;
+  color: #292b2c;
+
+  h2{
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+  }
+
+  .info-imgs-container{
+    display: flex;
+    justify-content:space-between;
+  
+    .info-img-container{
+      height: 17.438rem;
+      width: 20rem;
+
+      img{
+        height: 11.313rem;
+      }
+      
+      h3{
+        font-size:1.5rem;
+        margin-bottom: .6rem;
+      }
+  
+      p{
+        font-size:1rem;
+      }
+    }
+    
+  }
+}
+
+@media (max-width : 768px) {
+  .info-container{
+    width:85rem;
+    margin: 15rem auto;
+  
+    h2{
+      font-size: 5.4rem;
+      margin-bottom: 4rem;
+    }
+  
+    .info-imgs-container{
+      display: flex;
+      justify-content:space-between;
+    
+      .info-img-container{
+        height: 34rem;
+        width: 40rem;
+  
+        img{
+          height: 22rem;
+        }
+        
+        h3{
+          font-size:3rem;
+          margin-bottom: .6rem;
+        }
+    
+        p{
+          font-size:2rem;
+        }
+      }
+      
+    }
+  }
+}
+
+@media (max-width : 560px) {
+  .info-container{
+    width:90rem;
+    margin: 15rem auto;
+  
+    h2{
+      font-size: 7rem;
+      margin-bottom: 8rem;
+    }
+  
+    .info-imgs-container{
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items:center;
+    
+      .info-img-container{
+        height: 60rem;
+        width: 50rem;
+  
+        img{
+          height: 35rem;
+        }
+        
+        h3{
+          font-size:6rem;
+          margin-bottom: 1rem;
+        }
+    
+        p{
+          font-size:4rem;
+        }
+      }
+      
+    }
+  }
+}
+
+@media (max-width : 411px) {
+  .info-container{
+    width:90rem;
+    margin: 15rem auto;
+  
+    h2{
+      font-size: 7rem;
+      margin-bottom: 8rem;
+    }
+  
+    .info-imgs-container{
+      height: 230rem;
+      .info-img-container{
+        height: 60rem;
+        width: 65rem;
+  
+        img{
+          height: 45rem;
+        }
+        
+        h3{
+          font-size:7rem;
+          margin-bottom: 1rem;
+        }
+    
+        p{
+          font-size:5.3rem;
+        }
+      }
+      
+    }
+  }
+}

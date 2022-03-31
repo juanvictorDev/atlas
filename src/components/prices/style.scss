@@ -1,0 +1,382 @@
+.prices-title{
+  margin: 7rem 0 1rem 0;
+  color: #292b2c;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.prices-container{
+  height: 37.188rem;
+  margin: 0 auto;
+  color: #292b2c;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .aside-card-price{
+    height: 26rem;
+    width: 17rem;
+    margin: 0 2rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgb(214, 214, 214);
+    transition: .3s;
+
+    h3{
+      font-size:2rem;
+      font-weight: 200;
+    }
+
+    p{
+      font-size:3rem;
+      font-weight: 700;
+      
+      span{
+        font-size:1.5rem;
+        font-weight: 200;
+      }
+    }
+    
+    ul{
+      list-style: none;
+      text-align: center;
+      
+      li{
+        font-size: 1.2rem;
+      }
+    }
+    
+    button{
+      height: 3rem;
+      width: 10rem;
+      border: 0.25rem solid #00ffad;
+      border-radius: 2rem;
+      background-color: transparent;
+      transition: .3s;
+      
+      a{
+        text-decoration: none;
+        color: #242e49;
+
+        font-size: 1.5rem;
+        font-weight: 700;
+        transition: .3s;
+      }
+
+      &:hover{
+        background-color: #242e49;
+        border: 4px solid #242e49;
+        a{
+          color: white;
+        }
+      }
+    }
+  
+    &:hover{
+      margin-top:-1.5rem;
+    }
+  }
+
+  .main-card-price{
+    height: 28rem;
+    width: 17rem;
+    padding: 2rem;
+
+    color: white;
+    background: #242e49;
+    box-shadow: 0 0 10px rgb(31, 31, 31);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 2rem;
+    transition: .3s;
+
+
+    h3{
+      font-size:2rem;
+      font-weight: 200;
+    }
+
+    p{
+      font-size:3rem;
+      font-weight: 700;
+      span{
+        font-size:1.5rem;
+        font-weight: 200;
+      }
+    }
+
+    ul{
+      list-style: none;
+      text-align: center;
+      
+      li{
+        font-size: 1.2rem;
+      }
+    }
+
+    button{
+      height: 3rem;
+      width: 10rem;
+      border: 0.25rem solid #00ffad;
+      border-radius: 2rem;
+      background-color: transparent;
+      transition: .3s;
+      
+      a{
+        text-decoration: none;
+        color: white;
+
+        font-size: 1.5rem;
+        font-weight: 700;
+        transition: .3s;
+      }
+
+      &:hover{
+        background-color: #00ffad;
+        a{
+          color: #242e49;
+        }
+      }
+    }
+
+    &:hover{
+      margin-top:-1.5rem;
+    }
+  }
+}
+
+
+
+@media (max-width : 768px) {
+  .prices-title{
+    margin: 14rem 0 2rem 0;
+    font-size: 5.4rem;
+  }
+  
+  .prices-container{
+    height: 74rem;
+  
+    .aside-card-price{
+      height: 52rem;
+      width: 27rem;
+      margin: 0 3rem;
+      padding: 4rem;
+    
+      border-radius: 4rem;
+      box-shadow: 0 0 2.5rem rgb(214, 214, 214);
+  
+      h3{
+        font-size:3rem;
+      }
+  
+      p{
+        font-size:5rem;        
+        span{
+          font-size:3rem;
+        }
+      }
+      
+      ul{
+        li{
+          font-size: 1.85rem;
+          margin-bottom: .3rem;
+        }
+      }
+      
+      button{
+        height: 5rem;
+        width: 18rem;
+        border: 0.5rem solid #00ffad;
+        border-radius: 4rem;
+        
+        a{
+          font-size: 2.5rem;
+        }
+      }
+    }
+  
+    .main-card-price{
+      height: 56rem;
+      width: 35rem;
+      padding: 4rem;
+  
+      box-shadow: 0 0 1.25rem rgb(31, 31, 31);
+      border-radius: 4rem;  
+  
+      h3{
+        font-size: 3.5rem;
+      }
+  
+      p{
+        font-size: 5.5rem;
+        span{
+          font-size: 3rem;
+        }
+      }
+  
+      ul{
+        li{
+          font-size: 2rem;
+          padding-bottom: .5rem;
+        }
+      }
+  
+      button{
+        height: 6rem;
+        width: 20rem;
+        border: 0.5rem solid #00ffad;
+        border-radius: 4rem;
+        
+        a{
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+  
+}
+
+
+
+@media (max-width : 560px) {
+  .prices-title{
+    margin: 14rem 0 2rem 0;
+    font-size: 7.5rem;
+  }
+  
+  .prices-container{
+    height: 250rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+    .aside-card-price{
+      height: 75rem;
+      width: 65rem;
+      margin: 0 3rem;
+      padding: 4rem;
+    
+      border-radius: 10rem;
+      box-shadow: 0 0 2.5rem rgb(214, 214, 214);
+  
+      h3{
+        font-size: 7rem;
+      }
+  
+      p{
+        font-size:10rem;        
+        span{
+          font-size:6rem;
+        }
+      }
+      
+      ul{
+        li{
+          font-size: 4rem;
+          margin-bottom: .3rem;
+        }
+      }
+      
+      button{
+        height: 9rem;
+        width: 30rem;
+        border: 0.5rem solid #00ffad;
+        border-radius: 5rem;
+        
+        a{
+          font-size: 5rem;
+        }
+      }
+    }
+  
+    .main-card-price{
+      height: 75rem;
+      width: 65rem;
+      padding: 4rem;
+  
+      box-shadow: 0 0 1.25rem rgb(31, 31, 31);
+      border-radius: 10rem;  
+  
+      h3{
+        font-size: 7rem;
+      }
+  
+      p{
+        font-size: 10rem;
+        span{
+          font-size: 6rem;
+        }
+      }
+  
+      ul{
+        li{
+          font-size: 4rem;
+          padding-bottom: .3rem;
+        }
+      }
+  
+      button{
+        height: 9rem;
+        width: 30rem;
+        border: 0.5rem solid #00ffad;
+        border-radius: 5rem;
+        
+        a{
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (max-width : 411px) {
+  .prices-title{
+    margin: 14rem 0 6rem 0;
+    font-size: 7.5rem;
+  }
+  
+  .prices-container{
+    height: 265rem;
+      
+    .aside-card-price{
+      height: 80rem;
+      width: 70rem;
+   
+      ul{
+        li{
+          font-size: 5rem;
+          margin-bottom: .3rem;
+        }
+      }
+      
+    }
+  
+    .main-card-price{
+      height: 80rem;
+      width: 70rem;
+  
+      ul{
+        li{
+          font-size: 5rem;
+          padding-bottom: .3rem;
+        }
+      }
+  
+    }
+  }
+}

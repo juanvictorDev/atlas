@@ -1,0 +1,40 @@
+.partnes-container{
+  height: 8rem;
+  margin: 0 auto;
+
+  background-color: rgb(238, 238, 238);
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img{
+    height: 4.438rem;
+  }
+}
+
+@media (max-width : 768px) {
+  .partnes-container{
+    height: 10rem;
+  
+    img{
+      height: 7rem;
+    }
+  }
+}
+
+
+@media (max-width : 560px) {
+  .partnes-container{
+    height: 37rem;
+    margin-top: 7rem;
+
+
+    flex-wrap: wrap;
+
+    img{
+      height: 15rem;
+      padding: 1rem;
+    }
+  }
+}
