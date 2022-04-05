@@ -1,6 +1,5 @@
 <div align="center">
-<h3>ATLAS</h3>
-<img height="150" src="https://user-images.githubusercontent.com/92947069/161862005-422b717f-a1e2-4c6b-8e06-8f0b42cfba69.png" />
+ <img height="150" src="https://user-images.githubusercontent.com/92947069/161862005-422b717f-a1e2-4c6b-8e06-8f0b42cfba69.png" />
 </div>
 
 <br>
@@ -18,7 +17,7 @@
   </a>
 </div>
 
-<br>
+<br><br>
 
 <h3 align="center">🔹Tecnologias🔹</h3>
 
@@ -28,11 +27,13 @@
   <img height="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />          
 </div>
 
+<br><br>
+
 <h3 align="center">🔹Responsividade🔹</h3>
 
 <div align="center">
  
- 
+ ![atlas-responsivo(1)](https://user-images.githubusercontent.com/92947069/161868616-d7cf0770-81ee-4c3b-a1ac-91ffe9684718.gif)
 
 </div>
 
