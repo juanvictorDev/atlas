@@ -13,7 +13,7 @@
 
 <div align="center">  
   <a href="https://atlas-juanvictordev.netlify.app/">
-    <img height="70" src="https://user-images.githubusercontent.com/92947069/161865307-38386fda-bd21-46d0-945b-2f35ae41ccc5.png" />
+    <img height="70" src="https://user-images.githubusercontent.com/92947069/162277589-3c627d52-dd1e-4ca4-b09b-f6a515f0db0a.png" />
   </a>
 </div>
 
